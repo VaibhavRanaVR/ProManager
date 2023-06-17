@@ -1,11 +1,10 @@
-
-import './App.css';
-
+import "./App.css";
+import Sidebar from "./Component/Common/Sidebar";
 function App() {
   return (
     <div className="App">
-      my manager
-         </div>
+      <Sidebar />
+    </div>
   );
 }
 
