@@ -2,10 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Topbar = () => {
-  const handleDropdownToggle = () => {
-    const dropdown = document.getElementById("dropdown");
-    dropdown.classList.toggle("hidden");
-  };
+
 
   return (
     <div>
